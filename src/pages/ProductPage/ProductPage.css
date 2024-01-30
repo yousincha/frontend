@@ -1,0 +1,26 @@
+.product-buttons {
+  display: flex;
+  flex-direction: column;
+}
+.service-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-title,
+.service-title {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+  color: navy;
+  text-decoration: underline;
+  text-decoration-thickness: 3px; /* 밑줄 굵기 조정 */
+}
+.page-left {
+  position: relative;
+}
+
+.page-right {
+  position: relative;
+}

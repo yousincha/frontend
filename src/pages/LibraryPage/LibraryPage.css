@@ -1,0 +1,55 @@
+.library-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.library-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+  color: navy;
+  text-decoration: underline;
+  text-decoration-thickness: 3px; /* 밑줄 굵기 조정 */
+}
+
+.pagination-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.pagination-button {
+  padding: 4px 8px;
+  color: white;
+  border-radius: 4px;
+  background-color: #ccc; /* 기본 색상: 회색 */
+  border: 1px solid white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-button:hover {
+  background-color: #ccc; /* 호버 시 배경 색상 변경 */
+}
+
+.pagination-button.active {
+  background-color: black; /* 활성화된 페이지의 색상: 블랙 */
+  color: white;
+}
+
+.pagination-button.hidden {
+  display: none;
+}
+
+.page-left {
+  position: relative;
+}
+
+.page-right {
+  position: relative;
+}

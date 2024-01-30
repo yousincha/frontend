@@ -1,0 +1,32 @@
+.footer-top {
+  padding: 15px 0;
+  color: black;
+  background: none;
+  background-size: cover;
+  background-position: center;
+  padding: 0 0 20px;
+  font-family: rubik;
+  padding-top: 10px;
+}
+
+.footer-bottom {
+  padding: 15px 0;
+  border-top: 1px;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: rubik;
+  text-align: center;
+}
+
+.footer-top-logo,
+.gem-contacts-item.gem-contacts-time,
+.gem-contacts-item-table {
+  padding-left: 25%;
+}
+
+.gem-contacts-item.gem-contacts-item-table {
+  padding-top: 10px;
+}
+.gem-contacts-item {
+  font-size: 14px;
+}

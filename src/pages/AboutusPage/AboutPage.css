@@ -1,0 +1,26 @@
+.about-us {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+  color: navy;
+  text-decoration: underline navy;
+  text-decoration-thickness: 3px; /* 밑줄 굵기 조정 */
+}
+
+.page-left {
+  position: relative;
+}
+
+.page-right {
+  position: relative;
+}
+
+.page-right::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -5px; /* 조정 필요한 위치로 수정 */
+  height: 100%;
+  border-left: 1px solid #ccc;
+}

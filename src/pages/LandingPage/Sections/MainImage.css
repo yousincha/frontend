@@ -1,0 +1,8 @@
+/* MainImage.css */
+
+.updateButton {
+  background-color: black;
+  color: white;
+  border-radius: 0; /* Remove rounded corners */
+  padding: 10px 20px; /* Add padding as needed */
+}
